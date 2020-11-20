@@ -137,10 +137,10 @@ export default (() => {
 				<Box>
 					<Image width="64px" height="64px" />
 				</Box>
-				<Text font="--font3">
+				<Text font="--font2">
 					Some text
 				</Text>
-				<Text font="--font2">
+				<Text font="--font3">
 					Some text
 				</Text>
 			</Box>
