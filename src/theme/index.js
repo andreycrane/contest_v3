@@ -41,7 +41,7 @@ export default {
 		"textGray": "#18191F",
 		"textGray1": "#43444B",
 		"lightGrayMaybe": "#F6EFFF",
-		"darkBlue1": "#050028",
+		"darkBlue1": "",
 		"accentCyan": "#A0DCFF",
 		"accentLightPeach": "#FDD9D9"
 	},
@@ -182,5 +182,5 @@ export default {
 			}
 		}
 	},
-	"version": 13
+	"version": 24
 }

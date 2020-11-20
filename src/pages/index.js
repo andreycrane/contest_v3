@@ -154,6 +154,11 @@ export default (() => {
 				<Override slot="image" src="https://uploads.quarkly.io/5fb7e9e1b83a2f001f2e1e2a/images/Group%20968.png?v=2020-11-20T20:19:58.396Z" object-fit="scale-down" object-position="1000% 50%" />
 			</Components.AppCard>
 		</Section>
+		<Section>
+			<Text>
+				Watch a video overview of our application
+			</Text>
+		</Section>
 		<Link
 			font={"--capture"}
 			font-size={"10px"}
