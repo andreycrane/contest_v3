@@ -38,7 +38,10 @@ export default {
 		"purple": "#FD6DF9",
 		"indigo": "#9B6CFC",
 		"brandPurple": "#8C30F5",
-		"textGray": "#18191F"
+		"textGray": "#18191F",
+		"textGray1": "#43444B",
+		"lightGrayMaybe": "#F6EFFF",
+		"darkBlue1": "#050028"
 	},
 	"fontFamily": {
 		"sans": "-apple-system, system-ui, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif",
@@ -59,7 +62,8 @@ export default {
 		"base": "normal 300 16px/1.5 --fontFamily-sans",
 		"lead": "normal 300 20px/1.5 --fontFamily-sans",
 		"font1": "normal 800 27px/20px --fontFamily-googleInter",
-		"font2": "normal 700 36px/43.2px --fontFamily-googleInter"
+		"font2": "normal 700 36px/43.2px --fontFamily-googleInter",
+		"font3": "400 16px/32px --fontFamily-googleInter"
 	},
 	"boxShadow": {
 		"m": "0 4px 5px -1px rgba(0, 0, 0, 0.1)",
