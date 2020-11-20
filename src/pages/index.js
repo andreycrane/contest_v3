@@ -133,17 +133,24 @@ export default (() => {
 			<Text font="--font2">
 				The most selling apps
 			</Text>
-			<Box border-radius="8px">
-				<Box>
-					<Image width="64px" height="64px" />
-				</Box>
-				<Text font="--font2">
-					Some text
-				</Text>
-				<Text font="--font3">
-					Some text
-				</Text>
-			</Box>
+			<Components.AppCard>
+				<Override slot="text">
+					DocDoc
+				</Override>
+				<Override slot="text1">
+					iOS
+				</Override>
+				<Override slot="box" background="--color-accentCyan" />
+			</Components.AppCard>
+			<Components.AppCard>
+				<Override slot="text">
+					Travel.Spot
+				</Override>
+				<Override slot="text1">
+					iOS
+				</Override>
+				<Override slot="box" background="--color-accentLightPeach" />
+			</Components.AppCard>
 		</Section>
 		<Link
 			font={"--capture"}

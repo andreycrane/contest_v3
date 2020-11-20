@@ -41,7 +41,9 @@ export default {
 		"textGray": "#18191F",
 		"textGray1": "#43444B",
 		"lightGrayMaybe": "#F6EFFF",
-		"darkBlue1": "#050028"
+		"darkBlue1": "#050028",
+		"accentCyan": "#A0DCFF",
+		"accentLightPeach": "#FDD9D9"
 	},
 	"fontFamily": {
 		"sans": "-apple-system, system-ui, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif",
