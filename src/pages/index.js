@@ -141,6 +141,7 @@ export default (() => {
 					iOS
 				</Override>
 				<Override slot="box" background="--color-accentCyan" />
+				<Override slot="image" src="https://uploads.quarkly.io/5fb7e9e1b83a2f001f2e1e2a/images/Group%20969.png?v=2020-11-20T20:17:43.389Z" object-position="center bottom" object-fit="scale-down" />
 			</Components.AppCard>
 			<Components.AppCard>
 				<Override slot="text">
@@ -150,6 +151,7 @@ export default (() => {
 					iOS
 				</Override>
 				<Override slot="box" background="--color-accentLightPeach" />
+				<Override slot="image" src="https://uploads.quarkly.io/5fb7e9e1b83a2f001f2e1e2a/images/Group%20968.png?v=2020-11-20T20:19:58.396Z" object-fit="scale-down" object-position="1000% 50%" />
 			</Components.AppCard>
 		</Section>
 		<Link
