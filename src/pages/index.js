@@ -129,6 +129,22 @@ export default (() => {
 				Start using
 			</Components.BaseButton>
 		</Section>
+		<Section>
+			<Text font="--font2">
+				The most selling apps
+			</Text>
+			<Box border-radius="8px">
+				<Box>
+					<Image width="64px" height="64px" />
+				</Box>
+				<Text font="--font3">
+					Some text
+				</Text>
+				<Text font="--font2">
+					Some text
+				</Text>
+			</Box>
+		</Section>
 		<Link
 			font={"--capture"}
 			font-size={"10px"}
