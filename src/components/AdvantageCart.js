@@ -4,7 +4,9 @@ import { Image, Text, Box } from "@quarkly/widgets";
 const defaultProps = {
 	"background": "--color-light",
 	"border-radius": "8px",
-	"padding": "40px 32px 40px 32px"
+	"padding": "40px 32px 40px 32px",
+	"box-sizing": "border-box",
+	"min-width": "auto"
 };
 const overrides = {
 	"image": {

@@ -91,9 +91,10 @@ export default (() => {
 			</Text>
 		</Section>
 		<Section background="--color-lightGrayMaybe">
-			<Image width="100%" height="222px" src="https://uploads.quarkly.io/5fb7e9e1b83a2f001f2e1e2a/images/Macbook%20Pro.png?v=2020-11-20T18:52:55.164Z" />
+			<Image src="https://uploads.quarkly.io/5fb7e9e1b83a2f001f2e1e2a/images/Macbook%20Pro.png?v=2020-11-20T18:52:55.164Z" width="100%" height="222px" />
 		</Section>
-		<Section background="--color-darkBlue1">
+		<Section background="--color-darkBlue1" padding="80px 24px 80px 24px" box-sizing="border-box">
+			<Override slot="SectionContent" box-sizing="border-box" min-width="auto" />
 			<Text color="--light" font="--font2">
 				The advantages of our product
 			</Text>
@@ -115,7 +116,7 @@ export default (() => {
 				</Override>
 				<Override slot="image" src="https://uploads.quarkly.io/5fb7e9e1b83a2f001f2e1e2a/images/03.svg?v=2020-11-20T19:08:52.497Z" />
 			</Components.AdvantageCart>
-			<Components.AdvantageCart>
+			<Components.AdvantageCart margin="0px 0px 48px 0px">
 				<Override slot="text">
 					Responsive platform
 				</Override>
@@ -124,6 +125,9 @@ export default (() => {
 				</Override>
 				<Override slot="image" src="https://uploads.quarkly.io/5fb7e9e1b83a2f001f2e1e2a/images/04.svg?v=2020-11-20T19:11:25.324Z" />
 			</Components.AdvantageCart>
+			<Components.BaseButton align-self="center">
+				Start using
+			</Components.BaseButton>
 		</Section>
 		<Link
 			font={"--capture"}
