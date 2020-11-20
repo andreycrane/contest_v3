@@ -14,8 +14,15 @@ export default (() => {
 			<meta name={"description"} content={"Web site created using quarkly.io"} />
 			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/readme/cra/favicon-32x32.ico"} type={"image/x-icon"} />
 		</Helmet>
-		<Section box-shadow="0px 1px 0px #E5E9F2">
-			<Override slot="SectionContent" flex-direction="row" justify-content="flex-start" align-items="center" />
+		<Section box-shadow="0px 1px 0px #E5E9F2" padding="22px 25px 22px 25px" box-sizing="border-box">
+			<Override
+				slot="SectionContent"
+				flex-direction="row"
+				justify-content="flex-start"
+				align-items="center"
+				box-sizing="border-box"
+				min-width="auto"
+			/>
 			<Image width="28px" height="28px" src="https://uploads.quarkly.io/5fb7e9e1b83a2f001f2e1e2a/images/Color.svg?v=2020-11-20T16:31:56.648Z" />
 			<Text margin="0px 0px 0px 0px" flex="1 " font="--font1" color="--textGray">
 				Sales
@@ -24,7 +31,7 @@ export default (() => {
 				<Icon category="md" icon={MdMenu} color="--light" />
 			</Box>
 		</Section>
-		<Section padding="51px 24px 0 24px" box-sizing="border-box">
+		<Section padding="51px 24px 0 24px" box-sizing="border-box" background="rgba(0, 0, 0, 0) url(https://uploads.quarkly.io/5fb7e9e1b83a2f001f2e1e2a/images/Ellipse.png?v=2020-11-20T18:28:46.294Z) center bottom/auto no-repeat scroll padding-box">
 			<Override
 				slot="SectionContent"
 				justify-content="center"
@@ -34,12 +41,19 @@ export default (() => {
 				box-sizing="border-box"
 				min-width="auto"
 			/>
-			<Text font="--font2" text-align="center" display="inline-block" box-sizing="border-box">
+			<Text
+				font="--font2"
+				text-align="center"
+				display="inline-block"
+				box-sizing="border-box"
+				margin="0px 0px 32px 0px"
+			>
 				Track your product sales from anywhere, anytime
 			</Text>
-			<Components.BaseButton>
+			<Components.BaseButton margin="0px 0px 56px 0px">
 				Start using
 			</Components.BaseButton>
+			<Image src="https://uploads.quarkly.io/5fb7e9e1b83a2f001f2e1e2a/images/iPhone%20X.png?v=2020-11-20T17:09:58.458Z" width="100%" height="324px" />
 		</Section>
 		<Link
 			font={"--capture"}
